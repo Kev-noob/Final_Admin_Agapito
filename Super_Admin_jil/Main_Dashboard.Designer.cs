@@ -131,9 +131,9 @@
             // Enrollment_
             // 
             this.Enrollment_.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Enrollment_.Controls.Add(this.Enroll_AlignSubject);
             this.Enrollment_.Controls.Add(this.courses_);
             this.Enrollment_.Controls.Add(this.subjects_);
+            this.Enrollment_.Controls.Add(this.Enroll_AlignSubject);
             this.Enrollment_.Controls.Add(this.side_panel);
             this.Enrollment_.Location = new System.Drawing.Point(0, 0);
             this.Enrollment_.Name = "Enrollment_";
@@ -758,7 +758,7 @@
             // 
             // side_panel
             // 
-            this.side_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.side_panel.BackColor = System.Drawing.Color.DimGray;
             this.side_panel.Controls.Add(this.subjectAlign);
             this.side_panel.Controls.Add(this.subject_switch);
             this.side_panel.Controls.Add(this.course_switch);
@@ -867,8 +867,8 @@
             this.classOffering_.BackColor = System.Drawing.Color.Transparent;
             this.classOffering_.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.classOffering_.FlatAppearance.BorderSize = 0;
-            this.classOffering_.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
-            this.classOffering_.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.classOffering_.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.classOffering_.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.classOffering_.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.classOffering_.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.classOffering_.ForeColor = System.Drawing.Color.White;
@@ -886,8 +886,8 @@
             this.home.BackColor = System.Drawing.Color.Transparent;
             this.home.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.home.FlatAppearance.BorderSize = 0;
-            this.home.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
-            this.home.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.home.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.home.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.home.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.home.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home.ForeColor = System.Drawing.Color.White;
@@ -905,8 +905,8 @@
             this.dashboard.BackColor = System.Drawing.Color.Transparent;
             this.dashboard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.dashboard.FlatAppearance.BorderSize = 0;
-            this.dashboard.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
-            this.dashboard.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.dashboard.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.dashboard.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.dashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dashboard.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dashboard.ForeColor = System.Drawing.Color.White;
@@ -924,8 +924,8 @@
             this.enrollment.BackColor = System.Drawing.Color.Transparent;
             this.enrollment.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.enrollment.FlatAppearance.BorderSize = 0;
-            this.enrollment.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
-            this.enrollment.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.enrollment.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.enrollment.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.enrollment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.enrollment.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.enrollment.ForeColor = System.Drawing.Color.White;
@@ -943,8 +943,8 @@
             this.instructor.BackColor = System.Drawing.Color.Transparent;
             this.instructor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.instructor.FlatAppearance.BorderSize = 0;
-            this.instructor.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
-            this.instructor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.instructor.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.instructor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.instructor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.instructor.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.instructor.ForeColor = System.Drawing.Color.White;
@@ -962,8 +962,8 @@
             this.billing.BackColor = System.Drawing.Color.Transparent;
             this.billing.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.billing.FlatAppearance.BorderSize = 0;
-            this.billing.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
-            this.billing.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.billing.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.billing.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.billing.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.billing.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.billing.ForeColor = System.Drawing.Color.White;
@@ -981,8 +981,8 @@
             this.admins.BackColor = System.Drawing.Color.Transparent;
             this.admins.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.admins.FlatAppearance.BorderSize = 0;
-            this.admins.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
-            this.admins.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.admins.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.admins.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.admins.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.admins.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.admins.ForeColor = System.Drawing.Color.White;
@@ -1000,8 +1000,8 @@
             this.logout.BackColor = System.Drawing.Color.Transparent;
             this.logout.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.logout.FlatAppearance.BorderSize = 0;
-            this.logout.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
-            this.logout.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.logout.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.logout.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.logout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.logout.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logout.ForeColor = System.Drawing.Color.White;
@@ -1016,9 +1016,9 @@
             // 
             // Contents
             // 
+            this.Contents.Controls.Add(this.Instructor_);
             this.Contents.Controls.Add(this.Enrollment_);
             this.Contents.Controls.Add(this.Home_);
-            this.Contents.Controls.Add(this.Instructor_);
             this.Contents.Controls.Add(this.Admins_);
             this.Contents.Controls.Add(this.Billing_);
             this.Contents.Controls.Add(this.Dashboard_);
