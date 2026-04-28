@@ -31,27 +31,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.Enrollment_ = new System.Windows.Forms.Panel();
-            this.Enroll_AlignSubject = new System.Windows.Forms.Panel();
-            this.AlignReload = new System.Windows.Forms.Button();
-            this.current_alignment = new System.Windows.Forms.Panel();
-            this.DropAligned = new System.Windows.Forms.Button();
-            this.SelectLoadCourse = new System.Windows.Forms.Button();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.aligned_combobx = new System.Windows.Forms.ComboBox();
-            this.current_aligned_view = new System.Windows.Forms.DataGridView();
-            this.assignSubject = new System.Windows.Forms.Panel();
-            this.AlignSub = new System.Windows.Forms.Button();
-            this.label23 = new System.Windows.Forms.Label();
-            this.semester_combobx = new System.Windows.Forms.ComboBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.yearLv_combobx = new System.Windows.Forms.ComboBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.course_combobx = new System.Windows.Forms.ComboBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.subject_combobx = new System.Windows.Forms.ComboBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
             this.courses_ = new System.Windows.Forms.Panel();
             this.courses_DataGridView = new System.Windows.Forms.DataGridView();
             this.course_Code = new System.Windows.Forms.TextBox();
@@ -76,6 +55,27 @@
             this.delate = new System.Windows.Forms.Button();
             this.subject_clear = new System.Windows.Forms.Button();
             this.subjects_dataGridView = new System.Windows.Forms.DataGridView();
+            this.Enroll_AlignSubject = new System.Windows.Forms.Panel();
+            this.AlignReload = new System.Windows.Forms.Button();
+            this.current_alignment = new System.Windows.Forms.Panel();
+            this.DropAligned = new System.Windows.Forms.Button();
+            this.SelectLoadCourse = new System.Windows.Forms.Button();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.aligned_combobx = new System.Windows.Forms.ComboBox();
+            this.current_aligned_view = new System.Windows.Forms.DataGridView();
+            this.assignSubject = new System.Windows.Forms.Panel();
+            this.AlignSub = new System.Windows.Forms.Button();
+            this.label23 = new System.Windows.Forms.Label();
+            this.semester_combobx = new System.Windows.Forms.ComboBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.yearLv_combobx = new System.Windows.Forms.ComboBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.course_combobx = new System.Windows.Forms.ComboBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.subject_combobx = new System.Windows.Forms.ComboBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             this.side_panel = new System.Windows.Forms.Panel();
             this.subjectAlign = new System.Windows.Forms.Button();
             this.subject_switch = new System.Windows.Forms.Button();
@@ -92,7 +92,43 @@
             this.admins = new System.Windows.Forms.Button();
             this.logout = new System.Windows.Forms.Button();
             this.Contents = new System.Windows.Forms.Panel();
-            this.Home_ = new System.Windows.Forms.Panel();
+            this.Billing_ = new System.Windows.Forms.Panel();
+            this.contents_panel = new System.Windows.Forms.Panel();
+            this.view_bill = new System.Windows.Forms.Panel();
+            this.PayButton = new System.Windows.Forms.Button();
+            this.Pay_bills_lbl = new System.Windows.Forms.Label();
+            this.PayBills = new System.Windows.Forms.TextBox();
+            this.Filter_lbl = new System.Windows.Forms.Label();
+            this.Filter_cmbx = new System.Windows.Forms.ComboBox();
+            this.GridView_billedStudents = new System.Windows.Forms.DataGridView();
+            this.AdjustBill = new System.Windows.Forms.Panel();
+            this.Line_horizontal = new System.Windows.Forms.FlowLayoutPanel();
+            this.YearLevel_lbl = new System.Windows.Forms.Label();
+            this.YearLevel = new System.Windows.Forms.ComboBox();
+            this.GenerateBilling = new System.Windows.Forms.Button();
+            this.computation_display = new System.Windows.Forms.Panel();
+            this.PricePerStudents = new System.Windows.Forms.Label();
+            this.TotalStudents = new System.Windows.Forms.Label();
+            this.PricePerUnits = new System.Windows.Forms.Label();
+            this.TotalUnits = new System.Windows.Forms.Label();
+            this.TotalSubject = new System.Windows.Forms.Label();
+            this.PricePerStudents_lbl = new System.Windows.Forms.Label();
+            this.HorizonatalLine_2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.TotalStudent_lbl = new System.Windows.Forms.Label();
+            this.PricePerUnit_lbl = new System.Windows.Forms.Label();
+            this.TotalUnits_lbl = new System.Windows.Forms.Label();
+            this.TotalSubjectd_lbl = new System.Windows.Forms.Label();
+            this.SaveRate = new System.Windows.Forms.Button();
+            this.Course_lbl = new System.Windows.Forms.Label();
+            this.Course_cmbx = new System.Windows.Forms.ComboBox();
+            this.Generate_bill_lbl = new System.Windows.Forms.Label();
+            this.School_year_lbl = new System.Windows.Forms.Label();
+            this.Semester_lbl = new System.Windows.Forms.Label();
+            this.Price_per_unit = new System.Windows.Forms.Label();
+            this.Set_tuition_rate = new System.Windows.Forms.Label();
+            this.Semester_cmbx = new System.Windows.Forms.ComboBox();
+            this.SchoolYear = new System.Windows.Forms.TextBox();
+            this.PricePerUnit = new System.Windows.Forms.TextBox();
             this.Instructor_ = new System.Windows.Forms.Panel();
             this.drop_permanent = new System.Windows.Forms.Button();
             this.label26 = new System.Windows.Forms.Label();
@@ -101,30 +137,34 @@
             this.approve_pend = new System.Windows.Forms.Button();
             this.pending_INS = new System.Windows.Forms.DataGridView();
             this.label6 = new System.Windows.Forms.Label();
+            this.Home_ = new System.Windows.Forms.Panel();
             this.Admins_ = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
-            this.Billing_ = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
             this.Dashboard_ = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.Enrollment_.SuspendLayout();
-            this.Enroll_AlignSubject.SuspendLayout();
-            this.current_alignment.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.current_aligned_view)).BeginInit();
-            this.assignSubject.SuspendLayout();
             this.courses_.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.courses_DataGridView)).BeginInit();
             this.subjects_.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.subjects_dataGridView)).BeginInit();
+            this.Enroll_AlignSubject.SuspendLayout();
+            this.current_alignment.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.current_aligned_view)).BeginInit();
+            this.assignSubject.SuspendLayout();
             this.side_panel.SuspendLayout();
             this.Main_Container.SuspendLayout();
             this.Buttons.SuspendLayout();
             this.Contents.SuspendLayout();
+            this.Billing_.SuspendLayout();
+            this.contents_panel.SuspendLayout();
+            this.view_bill.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.GridView_billedStudents)).BeginInit();
+            this.AdjustBill.SuspendLayout();
+            this.computation_display.SuspendLayout();
             this.Instructor_.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.approved_INS)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pending_INS)).BeginInit();
             this.Admins_.SuspendLayout();
-            this.Billing_.SuspendLayout();
             this.Dashboard_.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -139,282 +179,6 @@
             this.Enrollment_.Name = "Enrollment_";
             this.Enrollment_.Size = new System.Drawing.Size(900, 524);
             this.Enrollment_.TabIndex = 10;
-            // 
-            // Enroll_AlignSubject
-            // 
-            this.Enroll_AlignSubject.BackColor = System.Drawing.Color.White;
-            this.Enroll_AlignSubject.Controls.Add(this.AlignReload);
-            this.Enroll_AlignSubject.Controls.Add(this.current_alignment);
-            this.Enroll_AlignSubject.Controls.Add(this.assignSubject);
-            this.Enroll_AlignSubject.Controls.Add(this.label16);
-            this.Enroll_AlignSubject.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Enroll_AlignSubject.Location = new System.Drawing.Point(174, 0);
-            this.Enroll_AlignSubject.Name = "Enroll_AlignSubject";
-            this.Enroll_AlignSubject.Size = new System.Drawing.Size(726, 524);
-            this.Enroll_AlignSubject.TabIndex = 50;
-            // 
-            // AlignReload
-            // 
-            this.AlignReload.BackColor = System.Drawing.Color.Transparent;
-            this.AlignReload.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.AlignReload.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.AlignReload.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.AlignReload.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AlignReload.Font = new System.Drawing.Font("Noto Sans JP", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AlignReload.ForeColor = System.Drawing.Color.Black;
-            this.AlignReload.Location = new System.Drawing.Point(15, 34);
-            this.AlignReload.Name = "AlignReload";
-            this.AlignReload.Size = new System.Drawing.Size(75, 26);
-            this.AlignReload.TabIndex = 0;
-            this.AlignReload.Text = "Refresh";
-            this.AlignReload.UseVisualStyleBackColor = false;
-            this.AlignReload.Click += new System.EventHandler(this.AlignReload_Click);
-            // 
-            // current_alignment
-            // 
-            this.current_alignment.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.current_alignment.Controls.Add(this.DropAligned);
-            this.current_alignment.Controls.Add(this.SelectLoadCourse);
-            this.current_alignment.Controls.Add(this.label20);
-            this.current_alignment.Controls.Add(this.label17);
-            this.current_alignment.Controls.Add(this.aligned_combobx);
-            this.current_alignment.Controls.Add(this.current_aligned_view);
-            this.current_alignment.Location = new System.Drawing.Point(292, 63);
-            this.current_alignment.Name = "current_alignment";
-            this.current_alignment.Size = new System.Drawing.Size(422, 448);
-            this.current_alignment.TabIndex = 5;
-            // 
-            // DropAligned
-            // 
-            this.DropAligned.BackColor = System.Drawing.Color.Transparent;
-            this.DropAligned.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.DropAligned.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.DropAligned.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.DropAligned.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.DropAligned.Font = new System.Drawing.Font("Noto Sans JP", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.DropAligned.ForeColor = System.Drawing.Color.Black;
-            this.DropAligned.Location = new System.Drawing.Point(245, 103);
-            this.DropAligned.Name = "DropAligned";
-            this.DropAligned.Size = new System.Drawing.Size(79, 27);
-            this.DropAligned.TabIndex = 16;
-            this.DropAligned.Text = "Drop";
-            this.DropAligned.UseVisualStyleBackColor = false;
-            this.DropAligned.Click += new System.EventHandler(this.DropAligned_Click);
-            // 
-            // SelectLoadCourse
-            // 
-            this.SelectLoadCourse.BackColor = System.Drawing.Color.Transparent;
-            this.SelectLoadCourse.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.SelectLoadCourse.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.SelectLoadCourse.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.SelectLoadCourse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SelectLoadCourse.Font = new System.Drawing.Font("Noto Sans JP", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.SelectLoadCourse.ForeColor = System.Drawing.Color.Black;
-            this.SelectLoadCourse.Location = new System.Drawing.Point(330, 103);
-            this.SelectLoadCourse.Name = "SelectLoadCourse";
-            this.SelectLoadCourse.Size = new System.Drawing.Size(79, 27);
-            this.SelectLoadCourse.TabIndex = 15;
-            this.SelectLoadCourse.Text = "Select";
-            this.SelectLoadCourse.UseVisualStyleBackColor = false;
-            this.SelectLoadCourse.Click += new System.EventHandler(this.SelectLoadCourse_Click);
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label20.ForeColor = System.Drawing.Color.Black;
-            this.label20.Location = new System.Drawing.Point(3, 42);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(58, 24);
-            this.label20.TabIndex = 8;
-            this.label20.Text = "Select";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label17.ForeColor = System.Drawing.Color.Black;
-            this.label17.Location = new System.Drawing.Point(3, 8);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(155, 24);
-            this.label17.TabIndex = 4;
-            this.label17.Text = "Current alignment";
-            // 
-            // aligned_combobx
-            // 
-            this.aligned_combobx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.aligned_combobx.ForeColor = System.Drawing.Color.Black;
-            this.aligned_combobx.FormattingEnabled = true;
-            this.aligned_combobx.Location = new System.Drawing.Point(7, 69);
-            this.aligned_combobx.Name = "aligned_combobx";
-            this.aligned_combobx.Size = new System.Drawing.Size(356, 28);
-            this.aligned_combobx.TabIndex = 1;
-            // 
-            // current_aligned_view
-            // 
-            this.current_aligned_view.AllowUserToAddRows = false;
-            this.current_aligned_view.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.current_aligned_view.BackgroundColor = System.Drawing.Color.LightGray;
-            this.current_aligned_view.ColumnHeadersHeight = 40;
-            this.current_aligned_view.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.current_aligned_view.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.current_aligned_view.Location = new System.Drawing.Point(0, 140);
-            this.current_aligned_view.MultiSelect = false;
-            this.current_aligned_view.Name = "current_aligned_view";
-            this.current_aligned_view.ReadOnly = true;
-            this.current_aligned_view.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.current_aligned_view.Size = new System.Drawing.Size(422, 308);
-            this.current_aligned_view.TabIndex = 0;
-            this.current_aligned_view.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.current_aligned_view_CellClick);
-            // 
-            // assignSubject
-            // 
-            this.assignSubject.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.assignSubject.Controls.Add(this.AlignSub);
-            this.assignSubject.Controls.Add(this.label23);
-            this.assignSubject.Controls.Add(this.semester_combobx);
-            this.assignSubject.Controls.Add(this.label22);
-            this.assignSubject.Controls.Add(this.yearLv_combobx);
-            this.assignSubject.Controls.Add(this.label21);
-            this.assignSubject.Controls.Add(this.course_combobx);
-            this.assignSubject.Controls.Add(this.label19);
-            this.assignSubject.Controls.Add(this.subject_combobx);
-            this.assignSubject.Controls.Add(this.label18);
-            this.assignSubject.Location = new System.Drawing.Point(13, 63);
-            this.assignSubject.Name = "assignSubject";
-            this.assignSubject.Size = new System.Drawing.Size(270, 449);
-            this.assignSubject.TabIndex = 4;
-            // 
-            // AlignSub
-            // 
-            this.AlignSub.BackColor = System.Drawing.Color.Transparent;
-            this.AlignSub.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.AlignSub.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.AlignSub.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.AlignSub.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AlignSub.Font = new System.Drawing.Font("Noto Sans JP Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.AlignSub.ForeColor = System.Drawing.Color.Black;
-            this.AlignSub.Location = new System.Drawing.Point(25, 380);
-            this.AlignSub.Name = "AlignSub";
-            this.AlignSub.Size = new System.Drawing.Size(222, 32);
-            this.AlignSub.TabIndex = 14;
-            this.AlignSub.Text = "Align subject";
-            this.AlignSub.UseVisualStyleBackColor = false;
-            this.AlignSub.Click += new System.EventHandler(this.AlignSub_Click);
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label23.ForeColor = System.Drawing.Color.Black;
-            this.label23.Location = new System.Drawing.Point(12, 283);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(84, 24);
-            this.label23.TabIndex = 13;
-            this.label23.Text = "Semester";
-            // 
-            // semester_combobx
-            // 
-            this.semester_combobx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.semester_combobx.ForeColor = System.Drawing.Color.Black;
-            this.semester_combobx.FormattingEnabled = true;
-            this.semester_combobx.Items.AddRange(new object[] {
-            "1",
-            "2"});
-            this.semester_combobx.Location = new System.Drawing.Point(16, 310);
-            this.semester_combobx.Name = "semester_combobx";
-            this.semester_combobx.Size = new System.Drawing.Size(166, 28);
-            this.semester_combobx.TabIndex = 12;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label22.ForeColor = System.Drawing.Color.Black;
-            this.label22.Location = new System.Drawing.Point(12, 210);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(84, 24);
-            this.label22.TabIndex = 11;
-            this.label22.Text = "Year level";
-            // 
-            // yearLv_combobx
-            // 
-            this.yearLv_combobx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yearLv_combobx.ForeColor = System.Drawing.Color.Black;
-            this.yearLv_combobx.FormattingEnabled = true;
-            this.yearLv_combobx.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4"});
-            this.yearLv_combobx.Location = new System.Drawing.Point(16, 237);
-            this.yearLv_combobx.Name = "yearLv_combobx";
-            this.yearLv_combobx.Size = new System.Drawing.Size(166, 28);
-            this.yearLv_combobx.TabIndex = 10;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label21.ForeColor = System.Drawing.Color.Black;
-            this.label21.Location = new System.Drawing.Point(12, 139);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(65, 24);
-            this.label21.TabIndex = 9;
-            this.label21.Text = "Course";
-            // 
-            // course_combobx
-            // 
-            this.course_combobx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.course_combobx.ForeColor = System.Drawing.Color.Black;
-            this.course_combobx.FormattingEnabled = true;
-            this.course_combobx.Location = new System.Drawing.Point(16, 166);
-            this.course_combobx.Name = "course_combobx";
-            this.course_combobx.Size = new System.Drawing.Size(243, 28);
-            this.course_combobx.TabIndex = 8;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label19.ForeColor = System.Drawing.Color.Black;
-            this.label19.Location = new System.Drawing.Point(12, 70);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(69, 24);
-            this.label19.TabIndex = 7;
-            this.label19.Text = "Subject\r\n";
-            // 
-            // subject_combobx
-            // 
-            this.subject_combobx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.subject_combobx.ForeColor = System.Drawing.Color.Black;
-            this.subject_combobx.FormattingEnabled = true;
-            this.subject_combobx.Location = new System.Drawing.Point(16, 97);
-            this.subject_combobx.Name = "subject_combobx";
-            this.subject_combobx.Size = new System.Drawing.Size(243, 28);
-            this.subject_combobx.TabIndex = 6;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label18.ForeColor = System.Drawing.Color.Black;
-            this.label18.Location = new System.Drawing.Point(3, 8);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(123, 24);
-            this.label18.TabIndex = 5;
-            this.label18.Text = "Assign subject\r\n";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label16.ForeColor = System.Drawing.Color.Black;
-            this.label16.Location = new System.Drawing.Point(287, 10);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(143, 27);
-            this.label16.TabIndex = 3;
-            this.label16.Text = "Subjects Align";
             // 
             // courses_
             // 
@@ -756,6 +520,282 @@
             this.subjects_dataGridView.TabIndex = 36;
             this.subjects_dataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
+            // Enroll_AlignSubject
+            // 
+            this.Enroll_AlignSubject.BackColor = System.Drawing.Color.White;
+            this.Enroll_AlignSubject.Controls.Add(this.AlignReload);
+            this.Enroll_AlignSubject.Controls.Add(this.current_alignment);
+            this.Enroll_AlignSubject.Controls.Add(this.assignSubject);
+            this.Enroll_AlignSubject.Controls.Add(this.label16);
+            this.Enroll_AlignSubject.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Enroll_AlignSubject.Location = new System.Drawing.Point(174, 0);
+            this.Enroll_AlignSubject.Name = "Enroll_AlignSubject";
+            this.Enroll_AlignSubject.Size = new System.Drawing.Size(726, 524);
+            this.Enroll_AlignSubject.TabIndex = 50;
+            // 
+            // AlignReload
+            // 
+            this.AlignReload.BackColor = System.Drawing.Color.Transparent;
+            this.AlignReload.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.AlignReload.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.AlignReload.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.AlignReload.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AlignReload.Font = new System.Drawing.Font("Noto Sans JP", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AlignReload.ForeColor = System.Drawing.Color.Black;
+            this.AlignReload.Location = new System.Drawing.Point(15, 34);
+            this.AlignReload.Name = "AlignReload";
+            this.AlignReload.Size = new System.Drawing.Size(75, 26);
+            this.AlignReload.TabIndex = 0;
+            this.AlignReload.Text = "Refresh";
+            this.AlignReload.UseVisualStyleBackColor = false;
+            this.AlignReload.Click += new System.EventHandler(this.AlignReload_Click);
+            // 
+            // current_alignment
+            // 
+            this.current_alignment.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.current_alignment.Controls.Add(this.DropAligned);
+            this.current_alignment.Controls.Add(this.SelectLoadCourse);
+            this.current_alignment.Controls.Add(this.label20);
+            this.current_alignment.Controls.Add(this.label17);
+            this.current_alignment.Controls.Add(this.aligned_combobx);
+            this.current_alignment.Controls.Add(this.current_aligned_view);
+            this.current_alignment.Location = new System.Drawing.Point(292, 63);
+            this.current_alignment.Name = "current_alignment";
+            this.current_alignment.Size = new System.Drawing.Size(422, 448);
+            this.current_alignment.TabIndex = 5;
+            // 
+            // DropAligned
+            // 
+            this.DropAligned.BackColor = System.Drawing.Color.Transparent;
+            this.DropAligned.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.DropAligned.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.DropAligned.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.DropAligned.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.DropAligned.Font = new System.Drawing.Font("Noto Sans JP", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.DropAligned.ForeColor = System.Drawing.Color.Black;
+            this.DropAligned.Location = new System.Drawing.Point(245, 103);
+            this.DropAligned.Name = "DropAligned";
+            this.DropAligned.Size = new System.Drawing.Size(79, 27);
+            this.DropAligned.TabIndex = 16;
+            this.DropAligned.Text = "Drop";
+            this.DropAligned.UseVisualStyleBackColor = false;
+            this.DropAligned.Click += new System.EventHandler(this.DropAligned_Click);
+            // 
+            // SelectLoadCourse
+            // 
+            this.SelectLoadCourse.BackColor = System.Drawing.Color.Transparent;
+            this.SelectLoadCourse.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.SelectLoadCourse.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.SelectLoadCourse.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.SelectLoadCourse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SelectLoadCourse.Font = new System.Drawing.Font("Noto Sans JP", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.SelectLoadCourse.ForeColor = System.Drawing.Color.Black;
+            this.SelectLoadCourse.Location = new System.Drawing.Point(330, 103);
+            this.SelectLoadCourse.Name = "SelectLoadCourse";
+            this.SelectLoadCourse.Size = new System.Drawing.Size(79, 27);
+            this.SelectLoadCourse.TabIndex = 15;
+            this.SelectLoadCourse.Text = "Select";
+            this.SelectLoadCourse.UseVisualStyleBackColor = false;
+            this.SelectLoadCourse.Click += new System.EventHandler(this.SelectLoadCourse_Click);
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label20.ForeColor = System.Drawing.Color.Black;
+            this.label20.Location = new System.Drawing.Point(3, 42);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(58, 24);
+            this.label20.TabIndex = 8;
+            this.label20.Text = "Select";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label17.ForeColor = System.Drawing.Color.Black;
+            this.label17.Location = new System.Drawing.Point(3, 8);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(155, 24);
+            this.label17.TabIndex = 4;
+            this.label17.Text = "Current alignment";
+            // 
+            // aligned_combobx
+            // 
+            this.aligned_combobx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.aligned_combobx.ForeColor = System.Drawing.Color.Black;
+            this.aligned_combobx.FormattingEnabled = true;
+            this.aligned_combobx.Location = new System.Drawing.Point(7, 69);
+            this.aligned_combobx.Name = "aligned_combobx";
+            this.aligned_combobx.Size = new System.Drawing.Size(356, 28);
+            this.aligned_combobx.TabIndex = 1;
+            // 
+            // current_aligned_view
+            // 
+            this.current_aligned_view.AllowUserToAddRows = false;
+            this.current_aligned_view.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.current_aligned_view.BackgroundColor = System.Drawing.Color.LightGray;
+            this.current_aligned_view.ColumnHeadersHeight = 40;
+            this.current_aligned_view.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.current_aligned_view.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.current_aligned_view.Location = new System.Drawing.Point(0, 140);
+            this.current_aligned_view.MultiSelect = false;
+            this.current_aligned_view.Name = "current_aligned_view";
+            this.current_aligned_view.ReadOnly = true;
+            this.current_aligned_view.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.current_aligned_view.Size = new System.Drawing.Size(422, 308);
+            this.current_aligned_view.TabIndex = 0;
+            this.current_aligned_view.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.current_aligned_view_CellClick);
+            // 
+            // assignSubject
+            // 
+            this.assignSubject.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.assignSubject.Controls.Add(this.AlignSub);
+            this.assignSubject.Controls.Add(this.label23);
+            this.assignSubject.Controls.Add(this.semester_combobx);
+            this.assignSubject.Controls.Add(this.label22);
+            this.assignSubject.Controls.Add(this.yearLv_combobx);
+            this.assignSubject.Controls.Add(this.label21);
+            this.assignSubject.Controls.Add(this.course_combobx);
+            this.assignSubject.Controls.Add(this.label19);
+            this.assignSubject.Controls.Add(this.subject_combobx);
+            this.assignSubject.Controls.Add(this.label18);
+            this.assignSubject.Location = new System.Drawing.Point(13, 63);
+            this.assignSubject.Name = "assignSubject";
+            this.assignSubject.Size = new System.Drawing.Size(270, 449);
+            this.assignSubject.TabIndex = 4;
+            // 
+            // AlignSub
+            // 
+            this.AlignSub.BackColor = System.Drawing.Color.Transparent;
+            this.AlignSub.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.AlignSub.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.AlignSub.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.AlignSub.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AlignSub.Font = new System.Drawing.Font("Noto Sans JP Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.AlignSub.ForeColor = System.Drawing.Color.Black;
+            this.AlignSub.Location = new System.Drawing.Point(25, 380);
+            this.AlignSub.Name = "AlignSub";
+            this.AlignSub.Size = new System.Drawing.Size(222, 32);
+            this.AlignSub.TabIndex = 14;
+            this.AlignSub.Text = "Align subject";
+            this.AlignSub.UseVisualStyleBackColor = false;
+            this.AlignSub.Click += new System.EventHandler(this.AlignSub_Click);
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label23.ForeColor = System.Drawing.Color.Black;
+            this.label23.Location = new System.Drawing.Point(12, 283);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(84, 24);
+            this.label23.TabIndex = 13;
+            this.label23.Text = "Semester";
+            // 
+            // semester_combobx
+            // 
+            this.semester_combobx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.semester_combobx.ForeColor = System.Drawing.Color.Black;
+            this.semester_combobx.FormattingEnabled = true;
+            this.semester_combobx.Items.AddRange(new object[] {
+            "1",
+            "2"});
+            this.semester_combobx.Location = new System.Drawing.Point(16, 310);
+            this.semester_combobx.Name = "semester_combobx";
+            this.semester_combobx.Size = new System.Drawing.Size(166, 28);
+            this.semester_combobx.TabIndex = 12;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label22.ForeColor = System.Drawing.Color.Black;
+            this.label22.Location = new System.Drawing.Point(12, 210);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(84, 24);
+            this.label22.TabIndex = 11;
+            this.label22.Text = "Year level";
+            // 
+            // yearLv_combobx
+            // 
+            this.yearLv_combobx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.yearLv_combobx.ForeColor = System.Drawing.Color.Black;
+            this.yearLv_combobx.FormattingEnabled = true;
+            this.yearLv_combobx.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4"});
+            this.yearLv_combobx.Location = new System.Drawing.Point(16, 237);
+            this.yearLv_combobx.Name = "yearLv_combobx";
+            this.yearLv_combobx.Size = new System.Drawing.Size(166, 28);
+            this.yearLv_combobx.TabIndex = 10;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label21.ForeColor = System.Drawing.Color.Black;
+            this.label21.Location = new System.Drawing.Point(12, 139);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(65, 24);
+            this.label21.TabIndex = 9;
+            this.label21.Text = "Course";
+            // 
+            // course_combobx
+            // 
+            this.course_combobx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.course_combobx.ForeColor = System.Drawing.Color.Black;
+            this.course_combobx.FormattingEnabled = true;
+            this.course_combobx.Location = new System.Drawing.Point(16, 166);
+            this.course_combobx.Name = "course_combobx";
+            this.course_combobx.Size = new System.Drawing.Size(243, 28);
+            this.course_combobx.TabIndex = 8;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label19.ForeColor = System.Drawing.Color.Black;
+            this.label19.Location = new System.Drawing.Point(12, 70);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(69, 24);
+            this.label19.TabIndex = 7;
+            this.label19.Text = "Subject\r\n";
+            // 
+            // subject_combobx
+            // 
+            this.subject_combobx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.subject_combobx.ForeColor = System.Drawing.Color.Black;
+            this.subject_combobx.FormattingEnabled = true;
+            this.subject_combobx.Location = new System.Drawing.Point(16, 97);
+            this.subject_combobx.Name = "subject_combobx";
+            this.subject_combobx.Size = new System.Drawing.Size(243, 28);
+            this.subject_combobx.TabIndex = 6;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label18.ForeColor = System.Drawing.Color.Black;
+            this.label18.Location = new System.Drawing.Point(3, 8);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(123, 24);
+            this.label18.TabIndex = 5;
+            this.label18.Text = "Assign subject\r\n";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label16.ForeColor = System.Drawing.Color.Black;
+            this.label16.Location = new System.Drawing.Point(287, 10);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(143, 27);
+            this.label16.TabIndex = 3;
+            this.label16.Text = "Subjects Align";
+            // 
             // side_panel
             // 
             this.side_panel.BackColor = System.Drawing.Color.DimGray;
@@ -1016,11 +1056,11 @@
             // 
             // Contents
             // 
+            this.Contents.Controls.Add(this.Billing_);
             this.Contents.Controls.Add(this.Instructor_);
             this.Contents.Controls.Add(this.Enrollment_);
             this.Contents.Controls.Add(this.Home_);
             this.Contents.Controls.Add(this.Admins_);
-            this.Contents.Controls.Add(this.Billing_);
             this.Contents.Controls.Add(this.Dashboard_);
             this.Contents.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.Contents.Location = new System.Drawing.Point(0, 68);
@@ -1028,15 +1068,455 @@
             this.Contents.Size = new System.Drawing.Size(900, 532);
             this.Contents.TabIndex = 0;
             // 
-            // Home_
+            // Billing_
             // 
-            this.Home_.BackgroundImage = global::Super_Admin_Rolly.Properties.Resources.home_;
-            this.Home_.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Home_.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Home_.Location = new System.Drawing.Point(0, 0);
-            this.Home_.Name = "Home_";
-            this.Home_.Size = new System.Drawing.Size(900, 532);
-            this.Home_.TabIndex = 11;
+            this.Billing_.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Billing_.Controls.Add(this.contents_panel);
+            this.Billing_.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Billing_.Location = new System.Drawing.Point(0, 0);
+            this.Billing_.Name = "Billing_";
+            this.Billing_.Size = new System.Drawing.Size(900, 532);
+            this.Billing_.TabIndex = 13;
+            // 
+            // contents_panel
+            // 
+            this.contents_panel.BackColor = System.Drawing.Color.White;
+            this.contents_panel.Controls.Add(this.view_bill);
+            this.contents_panel.Controls.Add(this.AdjustBill);
+            this.contents_panel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.contents_panel.Location = new System.Drawing.Point(0, 0);
+            this.contents_panel.Name = "contents_panel";
+            this.contents_panel.Size = new System.Drawing.Size(900, 532);
+            this.contents_panel.TabIndex = 13;
+            // 
+            // view_bill
+            // 
+            this.view_bill.Controls.Add(this.PayButton);
+            this.view_bill.Controls.Add(this.Pay_bills_lbl);
+            this.view_bill.Controls.Add(this.PayBills);
+            this.view_bill.Controls.Add(this.Filter_lbl);
+            this.view_bill.Controls.Add(this.Filter_cmbx);
+            this.view_bill.Controls.Add(this.GridView_billedStudents);
+            this.view_bill.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.view_bill.Location = new System.Drawing.Point(0, 229);
+            this.view_bill.Name = "view_bill";
+            this.view_bill.Size = new System.Drawing.Size(900, 303);
+            this.view_bill.TabIndex = 2;
+            // 
+            // PayButton
+            // 
+            this.PayButton.BackColor = System.Drawing.Color.Transparent;
+            this.PayButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.PayButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.PayButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.PayButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PayButton.Font = new System.Drawing.Font("Noto Sans JP", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.PayButton.ForeColor = System.Drawing.Color.Black;
+            this.PayButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.PayButton.Location = new System.Drawing.Point(761, 40);
+            this.PayButton.Name = "PayButton";
+            this.PayButton.Size = new System.Drawing.Size(88, 25);
+            this.PayButton.TabIndex = 16;
+            this.PayButton.Text = "Record";
+            this.PayButton.UseVisualStyleBackColor = false;
+            this.PayButton.Click += new System.EventHandler(this.PayButton_Click);
+            // 
+            // Pay_bills_lbl
+            // 
+            this.Pay_bills_lbl.AutoSize = true;
+            this.Pay_bills_lbl.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.Pay_bills_lbl.ForeColor = System.Drawing.Color.Black;
+            this.Pay_bills_lbl.Location = new System.Drawing.Point(368, 11);
+            this.Pay_bills_lbl.Name = "Pay_bills_lbl";
+            this.Pay_bills_lbl.Size = new System.Drawing.Size(75, 24);
+            this.Pay_bills_lbl.TabIndex = 21;
+            this.Pay_bills_lbl.Text = "Pay bills";
+            // 
+            // PayBills
+            // 
+            this.PayBills.Font = new System.Drawing.Font("Noto Sans JP Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.PayBills.ForeColor = System.Drawing.Color.Black;
+            this.PayBills.Location = new System.Drawing.Point(366, 38);
+            this.PayBills.Multiline = true;
+            this.PayBills.Name = "PayBills";
+            this.PayBills.Size = new System.Drawing.Size(375, 28);
+            this.PayBills.TabIndex = 20;
+            // 
+            // Filter_lbl
+            // 
+            this.Filter_lbl.AutoSize = true;
+            this.Filter_lbl.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.Filter_lbl.ForeColor = System.Drawing.Color.Black;
+            this.Filter_lbl.Location = new System.Drawing.Point(37, 9);
+            this.Filter_lbl.Name = "Filter_lbl";
+            this.Filter_lbl.Size = new System.Drawing.Size(52, 24);
+            this.Filter_lbl.TabIndex = 11;
+            this.Filter_lbl.Text = "Filter";
+            // 
+            // Filter_cmbx
+            // 
+            this.Filter_cmbx.Font = new System.Drawing.Font("Noto Sans JP", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.Filter_cmbx.ForeColor = System.Drawing.Color.Black;
+            this.Filter_cmbx.FormattingEnabled = true;
+            this.Filter_cmbx.Items.AddRange(new object[] {
+            "All status",
+            "Paid",
+            "Partial",
+            "Unpaid"});
+            this.Filter_cmbx.Location = new System.Drawing.Point(37, 36);
+            this.Filter_cmbx.Name = "Filter_cmbx";
+            this.Filter_cmbx.Size = new System.Drawing.Size(272, 29);
+            this.Filter_cmbx.TabIndex = 10;
+            this.Filter_cmbx.SelectedIndexChanged += new System.EventHandler(this.Filter_cmbx_SelectedIndexChanged);
+            // 
+            // GridView_billedStudents
+            // 
+            this.GridView_billedStudents.AllowUserToAddRows = false;
+            this.GridView_billedStudents.AllowUserToResizeColumns = false;
+            this.GridView_billedStudents.AllowUserToResizeRows = false;
+            this.GridView_billedStudents.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.GridView_billedStudents.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.GridView_billedStudents.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.GridView_billedStudents.GridColor = System.Drawing.Color.Black;
+            this.GridView_billedStudents.Location = new System.Drawing.Point(66, 72);
+            this.GridView_billedStudents.Name = "GridView_billedStudents";
+            this.GridView_billedStudents.ReadOnly = true;
+            this.GridView_billedStudents.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.GridView_billedStudents.Size = new System.Drawing.Size(763, 215);
+            this.GridView_billedStudents.TabIndex = 1;
+            this.GridView_billedStudents.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GridView_billedStudents_CellClick);
+            // 
+            // AdjustBill
+            // 
+            this.AdjustBill.Controls.Add(this.Line_horizontal);
+            this.AdjustBill.Controls.Add(this.YearLevel_lbl);
+            this.AdjustBill.Controls.Add(this.YearLevel);
+            this.AdjustBill.Controls.Add(this.GenerateBilling);
+            this.AdjustBill.Controls.Add(this.computation_display);
+            this.AdjustBill.Controls.Add(this.SaveRate);
+            this.AdjustBill.Controls.Add(this.Course_lbl);
+            this.AdjustBill.Controls.Add(this.Course_cmbx);
+            this.AdjustBill.Controls.Add(this.Generate_bill_lbl);
+            this.AdjustBill.Controls.Add(this.School_year_lbl);
+            this.AdjustBill.Controls.Add(this.Semester_lbl);
+            this.AdjustBill.Controls.Add(this.Price_per_unit);
+            this.AdjustBill.Controls.Add(this.Set_tuition_rate);
+            this.AdjustBill.Controls.Add(this.Semester_cmbx);
+            this.AdjustBill.Controls.Add(this.SchoolYear);
+            this.AdjustBill.Controls.Add(this.PricePerUnit);
+            this.AdjustBill.Dock = System.Windows.Forms.DockStyle.Top;
+            this.AdjustBill.Font = new System.Drawing.Font("Noto Sans JP Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdjustBill.Location = new System.Drawing.Point(0, 0);
+            this.AdjustBill.Name = "AdjustBill";
+            this.AdjustBill.Size = new System.Drawing.Size(900, 229);
+            this.AdjustBill.TabIndex = 0;
+            // 
+            // Line_horizontal
+            // 
+            this.Line_horizontal.BackColor = System.Drawing.Color.Gray;
+            this.Line_horizontal.Location = new System.Drawing.Point(0, 223);
+            this.Line_horizontal.Name = "Line_horizontal";
+            this.Line_horizontal.Size = new System.Drawing.Size(904, 3);
+            this.Line_horizontal.TabIndex = 11;
+            // 
+            // YearLevel_lbl
+            // 
+            this.YearLevel_lbl.AutoSize = true;
+            this.YearLevel_lbl.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.YearLevel_lbl.ForeColor = System.Drawing.Color.Black;
+            this.YearLevel_lbl.Location = new System.Drawing.Point(342, 109);
+            this.YearLevel_lbl.Name = "YearLevel_lbl";
+            this.YearLevel_lbl.Size = new System.Drawing.Size(84, 24);
+            this.YearLevel_lbl.TabIndex = 15;
+            this.YearLevel_lbl.Text = "Year level";
+            // 
+            // YearLevel
+            // 
+            this.YearLevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.YearLevel.ForeColor = System.Drawing.Color.Black;
+            this.YearLevel.FormattingEnabled = true;
+            this.YearLevel.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4"});
+            this.YearLevel.Location = new System.Drawing.Point(469, 105);
+            this.YearLevel.Name = "YearLevel";
+            this.YearLevel.Size = new System.Drawing.Size(155, 28);
+            this.YearLevel.TabIndex = 14;
+            this.YearLevel.SelectedIndexChanged += new System.EventHandler(this.YearLevel_SelectedIndexChanged);
+            // 
+            // GenerateBilling
+            // 
+            this.GenerateBilling.BackColor = System.Drawing.Color.Transparent;
+            this.GenerateBilling.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.GenerateBilling.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.GenerateBilling.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.GenerateBilling.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.GenerateBilling.Font = new System.Drawing.Font("Noto Sans JP", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.GenerateBilling.ForeColor = System.Drawing.Color.Black;
+            this.GenerateBilling.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.GenerateBilling.Location = new System.Drawing.Point(413, 180);
+            this.GenerateBilling.Name = "GenerateBilling";
+            this.GenerateBilling.Size = new System.Drawing.Size(211, 25);
+            this.GenerateBilling.TabIndex = 13;
+            this.GenerateBilling.Text = "Generate billing";
+            this.GenerateBilling.UseVisualStyleBackColor = false;
+            this.GenerateBilling.Click += new System.EventHandler(this.GenerateBilling_Click);
+            // 
+            // computation_display
+            // 
+            this.computation_display.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.computation_display.Controls.Add(this.PricePerStudents);
+            this.computation_display.Controls.Add(this.TotalStudents);
+            this.computation_display.Controls.Add(this.PricePerUnits);
+            this.computation_display.Controls.Add(this.TotalUnits);
+            this.computation_display.Controls.Add(this.TotalSubject);
+            this.computation_display.Controls.Add(this.PricePerStudents_lbl);
+            this.computation_display.Controls.Add(this.HorizonatalLine_2);
+            this.computation_display.Controls.Add(this.TotalStudent_lbl);
+            this.computation_display.Controls.Add(this.PricePerUnit_lbl);
+            this.computation_display.Controls.Add(this.TotalUnits_lbl);
+            this.computation_display.Controls.Add(this.TotalSubjectd_lbl);
+            this.computation_display.Location = new System.Drawing.Point(630, 40);
+            this.computation_display.Name = "computation_display";
+            this.computation_display.Size = new System.Drawing.Size(255, 163);
+            this.computation_display.TabIndex = 12;
+            // 
+            // PricePerStudents
+            // 
+            this.PricePerStudents.Font = new System.Drawing.Font("Noto Sans JP", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.PricePerStudents.ForeColor = System.Drawing.Color.Black;
+            this.PricePerStudents.Location = new System.Drawing.Point(148, 106);
+            this.PricePerStudents.Name = "PricePerStudents";
+            this.PricePerStudents.Size = new System.Drawing.Size(104, 19);
+            this.PricePerStudents.TabIndex = 20;
+            // 
+            // TotalStudents
+            // 
+            this.TotalStudents.Font = new System.Drawing.Font("Noto Sans JP Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.TotalStudents.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.TotalStudents.Location = new System.Drawing.Point(157, 76);
+            this.TotalStudents.Name = "TotalStudents";
+            this.TotalStudents.Size = new System.Drawing.Size(88, 17);
+            this.TotalStudents.TabIndex = 19;
+            // 
+            // PricePerUnits
+            // 
+            this.PricePerUnits.Font = new System.Drawing.Font("Noto Sans JP Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.PricePerUnits.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.PricePerUnits.Location = new System.Drawing.Point(157, 53);
+            this.PricePerUnits.Name = "PricePerUnits";
+            this.PricePerUnits.Size = new System.Drawing.Size(88, 17);
+            this.PricePerUnits.TabIndex = 18;
+            // 
+            // TotalUnits
+            // 
+            this.TotalUnits.Font = new System.Drawing.Font("Noto Sans JP Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.TotalUnits.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.TotalUnits.Location = new System.Drawing.Point(157, 30);
+            this.TotalUnits.Name = "TotalUnits";
+            this.TotalUnits.Size = new System.Drawing.Size(88, 17);
+            this.TotalUnits.TabIndex = 17;
+            // 
+            // TotalSubject
+            // 
+            this.TotalSubject.Font = new System.Drawing.Font("Noto Sans JP Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.TotalSubject.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.TotalSubject.Location = new System.Drawing.Point(157, 7);
+            this.TotalSubject.Name = "TotalSubject";
+            this.TotalSubject.Size = new System.Drawing.Size(88, 17);
+            this.TotalSubject.TabIndex = 16;
+            // 
+            // PricePerStudents_lbl
+            // 
+            this.PricePerStudents_lbl.AutoSize = true;
+            this.PricePerStudents_lbl.Font = new System.Drawing.Font("Noto Sans JP", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.PricePerStudents_lbl.ForeColor = System.Drawing.Color.Black;
+            this.PricePerStudents_lbl.Location = new System.Drawing.Point(11, 107);
+            this.PricePerStudents_lbl.Name = "PricePerStudents_lbl";
+            this.PricePerStudents_lbl.Size = new System.Drawing.Size(119, 19);
+            this.PricePerStudents_lbl.TabIndex = 15;
+            this.PricePerStudents_lbl.Text = "Price per student";
+            // 
+            // HorizonatalLine_2
+            // 
+            this.HorizonatalLine_2.BackColor = System.Drawing.Color.Gainsboro;
+            this.HorizonatalLine_2.Location = new System.Drawing.Point(0, 99);
+            this.HorizonatalLine_2.Name = "HorizonatalLine_2";
+            this.HorizonatalLine_2.Size = new System.Drawing.Size(350, 3);
+            this.HorizonatalLine_2.TabIndex = 14;
+            // 
+            // TotalStudent_lbl
+            // 
+            this.TotalStudent_lbl.AutoSize = true;
+            this.TotalStudent_lbl.Font = new System.Drawing.Font("Noto Sans JP Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.TotalStudent_lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.TotalStudent_lbl.Location = new System.Drawing.Point(30, 76);
+            this.TotalStudent_lbl.Name = "TotalStudent_lbl";
+            this.TotalStudent_lbl.Size = new System.Drawing.Size(85, 17);
+            this.TotalStudent_lbl.TabIndex = 13;
+            this.TotalStudent_lbl.Text = "Total student";
+            // 
+            // PricePerUnit_lbl
+            // 
+            this.PricePerUnit_lbl.AutoSize = true;
+            this.PricePerUnit_lbl.Font = new System.Drawing.Font("Noto Sans JP Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.PricePerUnit_lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.PricePerUnit_lbl.Location = new System.Drawing.Point(30, 53);
+            this.PricePerUnit_lbl.Name = "PricePerUnit_lbl";
+            this.PricePerUnit_lbl.Size = new System.Drawing.Size(85, 17);
+            this.PricePerUnit_lbl.TabIndex = 12;
+            this.PricePerUnit_lbl.Text = "Price per unit";
+            // 
+            // TotalUnits_lbl
+            // 
+            this.TotalUnits_lbl.AutoSize = true;
+            this.TotalUnits_lbl.Font = new System.Drawing.Font("Noto Sans JP Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.TotalUnits_lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.TotalUnits_lbl.Location = new System.Drawing.Point(30, 30);
+            this.TotalUnits_lbl.Name = "TotalUnits_lbl";
+            this.TotalUnits_lbl.Size = new System.Drawing.Size(68, 17);
+            this.TotalUnits_lbl.TabIndex = 11;
+            this.TotalUnits_lbl.Text = "Total units";
+            // 
+            // TotalSubjectd_lbl
+            // 
+            this.TotalSubjectd_lbl.AutoSize = true;
+            this.TotalSubjectd_lbl.Font = new System.Drawing.Font("Noto Sans JP Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.TotalSubjectd_lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.TotalSubjectd_lbl.Location = new System.Drawing.Point(30, 7);
+            this.TotalSubjectd_lbl.Name = "TotalSubjectd_lbl";
+            this.TotalSubjectd_lbl.Size = new System.Drawing.Size(88, 17);
+            this.TotalSubjectd_lbl.TabIndex = 10;
+            this.TotalSubjectd_lbl.Text = "Total subjects";
+            // 
+            // SaveRate
+            // 
+            this.SaveRate.BackColor = System.Drawing.Color.Transparent;
+            this.SaveRate.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.SaveRate.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.SaveRate.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.SaveRate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SaveRate.Font = new System.Drawing.Font("Noto Sans JP", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.SaveRate.ForeColor = System.Drawing.Color.Black;
+            this.SaveRate.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.SaveRate.Location = new System.Drawing.Point(77, 180);
+            this.SaveRate.Name = "SaveRate";
+            this.SaveRate.Size = new System.Drawing.Size(211, 25);
+            this.SaveRate.TabIndex = 11;
+            this.SaveRate.Text = "Save rate";
+            this.SaveRate.UseVisualStyleBackColor = false;
+            this.SaveRate.Click += new System.EventHandler(this.SaveRate_Click);
+            // 
+            // Course_lbl
+            // 
+            this.Course_lbl.AutoSize = true;
+            this.Course_lbl.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.Course_lbl.ForeColor = System.Drawing.Color.Black;
+            this.Course_lbl.Location = new System.Drawing.Point(341, 63);
+            this.Course_lbl.Name = "Course_lbl";
+            this.Course_lbl.Size = new System.Drawing.Size(65, 24);
+            this.Course_lbl.TabIndex = 9;
+            this.Course_lbl.Text = "Course";
+            // 
+            // Course_cmbx
+            // 
+            this.Course_cmbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Course_cmbx.ForeColor = System.Drawing.Color.Black;
+            this.Course_cmbx.FormattingEnabled = true;
+            this.Course_cmbx.Location = new System.Drawing.Point(423, 60);
+            this.Course_cmbx.Name = "Course_cmbx";
+            this.Course_cmbx.Size = new System.Drawing.Size(200, 28);
+            this.Course_cmbx.TabIndex = 8;
+            // 
+            // Generate_bill_lbl
+            // 
+            this.Generate_bill_lbl.AutoSize = true;
+            this.Generate_bill_lbl.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.Generate_bill_lbl.ForeColor = System.Drawing.Color.Black;
+            this.Generate_bill_lbl.Location = new System.Drawing.Point(340, 5);
+            this.Generate_bill_lbl.Name = "Generate_bill_lbl";
+            this.Generate_bill_lbl.Size = new System.Drawing.Size(132, 27);
+            this.Generate_bill_lbl.TabIndex = 7;
+            this.Generate_bill_lbl.Text = "Generate bill\r\n";
+            // 
+            // School_year_lbl
+            // 
+            this.School_year_lbl.AutoSize = true;
+            this.School_year_lbl.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.School_year_lbl.ForeColor = System.Drawing.Color.Black;
+            this.School_year_lbl.Location = new System.Drawing.Point(8, 93);
+            this.School_year_lbl.Name = "School_year_lbl";
+            this.School_year_lbl.Size = new System.Drawing.Size(84, 24);
+            this.School_year_lbl.TabIndex = 6;
+            this.School_year_lbl.Text = "Year level";
+            // 
+            // Semester_lbl
+            // 
+            this.Semester_lbl.AutoSize = true;
+            this.Semester_lbl.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.Semester_lbl.ForeColor = System.Drawing.Color.Black;
+            this.Semester_lbl.Location = new System.Drawing.Point(8, 135);
+            this.Semester_lbl.Name = "Semester_lbl";
+            this.Semester_lbl.Size = new System.Drawing.Size(84, 24);
+            this.Semester_lbl.TabIndex = 5;
+            this.Semester_lbl.Text = "Semester";
+            // 
+            // Price_per_unit
+            // 
+            this.Price_per_unit.AutoSize = true;
+            this.Price_per_unit.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.Price_per_unit.ForeColor = System.Drawing.Color.Black;
+            this.Price_per_unit.Location = new System.Drawing.Point(8, 53);
+            this.Price_per_unit.Name = "Price_per_unit";
+            this.Price_per_unit.Size = new System.Drawing.Size(116, 24);
+            this.Price_per_unit.TabIndex = 4;
+            this.Price_per_unit.Text = "Price per unit";
+            // 
+            // Set_tuition_rate
+            // 
+            this.Set_tuition_rate.AutoSize = true;
+            this.Set_tuition_rate.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.Set_tuition_rate.ForeColor = System.Drawing.Color.Black;
+            this.Set_tuition_rate.Location = new System.Drawing.Point(3, 10);
+            this.Set_tuition_rate.Name = "Set_tuition_rate";
+            this.Set_tuition_rate.Size = new System.Drawing.Size(153, 27);
+            this.Set_tuition_rate.TabIndex = 3;
+            this.Set_tuition_rate.Text = "Set tuition rate";
+            // 
+            // Semester_cmbx
+            // 
+            this.Semester_cmbx.Font = new System.Drawing.Font("Noto Sans JP", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.Semester_cmbx.ForeColor = System.Drawing.Color.Black;
+            this.Semester_cmbx.FormattingEnabled = true;
+            this.Semester_cmbx.Items.AddRange(new object[] {
+            "1",
+            "2"});
+            this.Semester_cmbx.Location = new System.Drawing.Point(129, 133);
+            this.Semester_cmbx.Name = "Semester_cmbx";
+            this.Semester_cmbx.Size = new System.Drawing.Size(159, 29);
+            this.Semester_cmbx.TabIndex = 2;
+            // 
+            // SchoolYear
+            // 
+            this.SchoolYear.Font = new System.Drawing.Font("Noto Sans JP Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.SchoolYear.ForeColor = System.Drawing.Color.Black;
+            this.SchoolYear.Location = new System.Drawing.Point(129, 93);
+            this.SchoolYear.Multiline = true;
+            this.SchoolYear.Name = "SchoolYear";
+            this.SchoolYear.Size = new System.Drawing.Size(159, 28);
+            this.SchoolYear.TabIndex = 1;
+            // 
+            // PricePerUnit
+            // 
+            this.PricePerUnit.Font = new System.Drawing.Font("Noto Sans JP Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.PricePerUnit.ForeColor = System.Drawing.Color.Black;
+            this.PricePerUnit.Location = new System.Drawing.Point(130, 54);
+            this.PricePerUnit.Multiline = true;
+            this.PricePerUnit.Name = "PricePerUnit";
+            this.PricePerUnit.Size = new System.Drawing.Size(159, 28);
+            this.PricePerUnit.TabIndex = 0;
             // 
             // Instructor_
             // 
@@ -1153,6 +1633,16 @@
             this.label6.TabIndex = 14;
             this.label6.Text = "Pending Instructors";
             // 
+            // Home_
+            // 
+            this.Home_.BackgroundImage = global::Super_Admin_Rolly.Properties.Resources.home_;
+            this.Home_.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Home_.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Home_.Location = new System.Drawing.Point(0, 0);
+            this.Home_.Name = "Home_";
+            this.Home_.Size = new System.Drawing.Size(900, 532);
+            this.Home_.TabIndex = 11;
+            // 
             // Admins_
             // 
             this.Admins_.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -1175,29 +1665,6 @@
             this.label11.Size = new System.Drawing.Size(93, 31);
             this.label11.TabIndex = 1;
             this.label11.Text = "Billing";
-            // 
-            // Billing_
-            // 
-            this.Billing_.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Billing_.Controls.Add(this.label7);
-            this.Billing_.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Billing_.Location = new System.Drawing.Point(0, 0);
-            this.Billing_.Name = "Billing_";
-            this.Billing_.Size = new System.Drawing.Size(900, 532);
-            this.Billing_.TabIndex = 13;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(301, 40);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(95, 31);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "BiIling";
             // 
             // Dashboard_
             // 
@@ -1235,6 +1702,12 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main_Dashboard";
             this.Enrollment_.ResumeLayout(false);
+            this.courses_.ResumeLayout(false);
+            this.courses_.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.courses_DataGridView)).EndInit();
+            this.subjects_.ResumeLayout(false);
+            this.subjects_.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.subjects_dataGridView)).EndInit();
             this.Enroll_AlignSubject.ResumeLayout(false);
             this.Enroll_AlignSubject.PerformLayout();
             this.current_alignment.ResumeLayout(false);
@@ -1242,25 +1715,26 @@
             ((System.ComponentModel.ISupportInitialize)(this.current_aligned_view)).EndInit();
             this.assignSubject.ResumeLayout(false);
             this.assignSubject.PerformLayout();
-            this.courses_.ResumeLayout(false);
-            this.courses_.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.courses_DataGridView)).EndInit();
-            this.subjects_.ResumeLayout(false);
-            this.subjects_.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.subjects_dataGridView)).EndInit();
             this.side_panel.ResumeLayout(false);
             this.side_panel.PerformLayout();
             this.Main_Container.ResumeLayout(false);
             this.Buttons.ResumeLayout(false);
             this.Contents.ResumeLayout(false);
+            this.Billing_.ResumeLayout(false);
+            this.contents_panel.ResumeLayout(false);
+            this.view_bill.ResumeLayout(false);
+            this.view_bill.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.GridView_billedStudents)).EndInit();
+            this.AdjustBill.ResumeLayout(false);
+            this.AdjustBill.PerformLayout();
+            this.computation_display.ResumeLayout(false);
+            this.computation_display.PerformLayout();
             this.Instructor_.ResumeLayout(false);
             this.Instructor_.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.approved_INS)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pending_INS)).EndInit();
             this.Admins_.ResumeLayout(false);
             this.Admins_.PerformLayout();
-            this.Billing_.ResumeLayout(false);
-            this.Billing_.PerformLayout();
             this.Dashboard_.ResumeLayout(false);
             this.Dashboard_.PerformLayout();
             this.ResumeLayout(false);
@@ -1312,7 +1786,6 @@
         private System.Windows.Forms.Button course_switch;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel Billing_;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel Instructor_;
         private System.Windows.Forms.Panel Admins_;
         private System.Windows.Forms.Label label11;
@@ -1346,5 +1819,41 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Button subjectAlign;
+        private System.Windows.Forms.Panel contents_panel;
+        private System.Windows.Forms.Panel view_bill;
+        private System.Windows.Forms.Button PayButton;
+        private System.Windows.Forms.Label Pay_bills_lbl;
+        private System.Windows.Forms.TextBox PayBills;
+        private System.Windows.Forms.Label Filter_lbl;
+        private System.Windows.Forms.ComboBox Filter_cmbx;
+        private System.Windows.Forms.DataGridView GridView_billedStudents;
+        private System.Windows.Forms.Panel AdjustBill;
+        private System.Windows.Forms.FlowLayoutPanel Line_horizontal;
+        private System.Windows.Forms.Label YearLevel_lbl;
+        private System.Windows.Forms.ComboBox YearLevel;
+        private System.Windows.Forms.Button GenerateBilling;
+        private System.Windows.Forms.Panel computation_display;
+        private System.Windows.Forms.Label PricePerStudents;
+        private System.Windows.Forms.Label TotalStudents;
+        private System.Windows.Forms.Label PricePerUnits;
+        private System.Windows.Forms.Label TotalUnits;
+        private System.Windows.Forms.Label TotalSubject;
+        private System.Windows.Forms.Label PricePerStudents_lbl;
+        private System.Windows.Forms.FlowLayoutPanel HorizonatalLine_2;
+        private System.Windows.Forms.Label TotalStudent_lbl;
+        private System.Windows.Forms.Label PricePerUnit_lbl;
+        private System.Windows.Forms.Label TotalUnits_lbl;
+        private System.Windows.Forms.Label TotalSubjectd_lbl;
+        private System.Windows.Forms.Button SaveRate;
+        private System.Windows.Forms.Label Course_lbl;
+        private System.Windows.Forms.ComboBox Course_cmbx;
+        private System.Windows.Forms.Label Generate_bill_lbl;
+        private System.Windows.Forms.Label School_year_lbl;
+        private System.Windows.Forms.Label Semester_lbl;
+        private System.Windows.Forms.Label Price_per_unit;
+        private System.Windows.Forms.Label Set_tuition_rate;
+        private System.Windows.Forms.ComboBox Semester_cmbx;
+        private System.Windows.Forms.TextBox SchoolYear;
+        private System.Windows.Forms.TextBox PricePerUnit;
     }
 }
